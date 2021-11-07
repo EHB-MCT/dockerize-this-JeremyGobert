@@ -16,6 +16,7 @@ server.get("/", (req, res) => {
   res.send({ message: "hello world" })
 })
 
+
 /**
  * [GET] /owner
  * @returns {Object} current owner object
